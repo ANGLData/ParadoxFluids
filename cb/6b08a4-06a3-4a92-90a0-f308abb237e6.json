@@ -1,0 +1,113 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "root",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "re-extract",
+    "commit": "e7b72b933efcb822d2e03c4d70f2e0f629b828fb",
+    "conditionals": null,
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 80.0,
+            "gain": 1.015551
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "H2": {
+            "deflection": 80.0,
+            "gain": 1.0387971
+        },
+        "L1": {
+            "deflection": 320.0,
+            "gain": 1.0108125
+        },
+        "L2": {
+            "deflection": 115.0,
+            "gain": 1.0385488
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "20210226",
+    "experiment_type": "Ar/Ar",
+    "extraction": "argus_CO2analysis.py",
+    "grainsize": "2-1 um",
+    "hops": "",
+    "identifier": "1302",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NoIrradiation",
+    "irradiation_level": "B",
+    "irradiation_position": 25,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": 0.0,
+    "mass_spectrometer": "Argus",
+    "material": "Illite",
+    "measurement": "argus_unknown600_180_Faradays.py",
+    "post_equilibration": "argus_pump_v1_300_turbo.py",
+    "post_measurement": "argus_pump_ms.py",
+    "principal_investigator": "Bailey, L",
+    "project": "Paradox Fluids",
+    "queue_conditionals_name": "",
+    "repository_identifier": "ParadoxFluids",
+    "rlocation": "",
+    "sample": "LR-SV",
+    "source": {
+        "emission": 687.69,
+        "trap": 198.706
+    },
+    "spec_sha": "1f10ea200502065958ffded54f121ddb0273dc8d",
+    "timestamp": "2021-02-26T16:14:38.542903",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "root",
+    "uuid": "cb6b08a4-06a3-4a92-90a0-f308abb237e6",
+    "whiff_result": null
+}
